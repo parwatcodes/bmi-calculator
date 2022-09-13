@@ -13,6 +13,7 @@
 		6684788C28D0B2AA0035DC9C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6684788A28D0B2AA0035DC9C /* Main.storyboard */; };
 		6684788E28D0B2AF0035DC9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6684788D28D0B2AF0035DC9C /* Assets.xcassets */; };
 		6684789128D0B2AF0035DC9C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6684788F28D0B2AF0035DC9C /* LaunchScreen.storyboard */; };
+		6684789928D0BC750035DC9C /* BMIResultController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6684789828D0BC740035DC9C /* BMIResultController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		6684788D28D0B2AF0035DC9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6684789028D0B2AF0035DC9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6684789228D0B2AF0035DC9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6684789828D0BC740035DC9C /* BMIResultController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMIResultController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		6684788328D0B2AA0035DC9C /* BMI Calculator */ = {
 			isa = PBXGroup;
 			children = (
+				6684789828D0BC740035DC9C /* BMIResultController.swift */,
 				6684788428D0B2AA0035DC9C /* AppDelegate.swift */,
 				6684788628D0B2AA0035DC9C /* SceneDelegate.swift */,
 				6684788828D0B2AA0035DC9C /* ViewController.swift */,
@@ -141,6 +144,7 @@
 				6684788928D0B2AA0035DC9C /* ViewController.swift in Sources */,
 				6684788528D0B2AA0035DC9C /* AppDelegate.swift in Sources */,
 				6684788728D0B2AA0035DC9C /* SceneDelegate.swift in Sources */,
+				6684789928D0BC750035DC9C /* BMIResultController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
